@@ -1,0 +1,92 @@
+/**
+ * @name MinimalCord Revamped
+ * @author Kεbab ひ#6969
+ * @version 1.0.0
+ * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes Credits to Gibbu For the base files
+
+*/
+
+
+@import url('https://raw.githack.com/DepressedKebab/MinimalCordRevamped/main/minimalcordrevampbase.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+:root {
+  /*LEAVE UNLESS YOU KNOW WHAT TO DO*/
+
+  --border-radius: 5px;
+  --discord-green: 79 79 79;
+  --discord-yellow: 219 171 9;
+  --discord-red: 215 58 73;
+  --discord-purple: 89 54 149;
+  --discord-invisible: 117 128 142;
+  --discord-nitro: 255 115 250;
+  --discord-blurple: 114 137 218;
+  --discord-spotify: 29 185 84;
+  --discord-twitch: 89 54 149;
+  --discord-xbox: 16 124 16;
+  --background-modifier-selected: var(--background-light);
+  --background-modifier-hover: var(--background-alt);
+  --background-modifier-active: var(--background-light);
+  --channels-default: var(--text-normal);
+  --version: "2.0.7";
+  /*LEAVE UNLESS YOU KNOW WHAT TO DO*/
+
+}
+/* CONFIG FOR THE LIGHT THEME */
+.theme-light {
+  --background-light: #9e9d9d;
+  --background-light-alt: rgb(158, 157, 157);
+  --background: #9e9d9d;
+  --background-alt: #929292;
+  --background-dark: #a3a3a3;
+  --text-normal: #636161;
+  --text-muted: #a7a7a7;
+  --text-focus: #585757;
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 700;
+  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
+  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
+  --scrollbar-colour: rgba(0 0 0 / 0.2);
+/* CONFIG FOR THE LIGHT THEME */
+}
+/* CONFIG FOR THE DARK THEME */
+.theme-dark {
+  --background-light: #171a1f;
+  --background-light-alt: #171a1f;
+  --background: #171a1f;
+  --background-alt: #171a1f;
+  --background-dark: #171a1f;
+  --text-normal: #d1d1d2;
+  --text-muted: #686a6d;
+  --text-focus: #fff;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
+  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
+  --scrollbar-colour: var(--background-light);
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-alt);
+/* CONFIG FOR THE DARK THEME */
+}
+
+/*LEAVE UNLESS YOU KNOW WHAT TO DO*/
+:root {
+  --accent: 65,66,66;
+  --message-padding: 6px;
+  --message-spacing: 8px;
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  /*LEAVE UNLESS YOU KNOW WHAT TO DO*/
+
+}
