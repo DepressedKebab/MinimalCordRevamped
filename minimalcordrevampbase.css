@@ -1,3 +1,33 @@
+.container-1giJp5 .subtext-3CDbHg {
+    color: var(--text-focus);
+}
+.wordmarkWindows-1v0lYD {    /* Discord Logo/Text */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 9px 10px 3px;
+  color: var(--text-muted);
+}
+
+.wordmarkWindows-1v0lYD::before /* Discord Logo/Text */
+{
+    content: 'MinimalCord Revamped';
+    font-size:13px;
+    font-weight:500;
+    
+    position:1000;
+    display:inline-block;
+    color: var(--text-focus);                 
+    height:1px;
+    top:1px;
+    left:1px;
+    background-color:transparent;
+}
+
+.wordmarkWindows-1v0lYD svg /* Hide the discord text*/
+{
+    display: none;
+}
 #app-mount .bg-h5JY_x {
   background: var(--background-dark);
 }
@@ -44,13 +74,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
     color: rgb(49, 49, 49);
 }
 .app-2rEoOp button {
-  color: rgb(49, 49, 49);
+  color: var(--text-focus);
 }
 .icon-3Oovq9{
-  color: rgb(49, 49, 49);
+  color: var(--text-focus);
 }
-  .rtcConnectionStatusLabel-1wk4tH {color: rgb(49, 49, 49);;}
-.rtcConnectionStatus-2-jIsi > svg > path {fill: rgb(49, 49, 49);}
+  .rtcConnectionStatusLabel-1wk4tH {color: var(--text-normal);}
+.rtcConnectionStatus-2-jIsi > svg > path {fill: var(--text-normal);}
 
 .container-3ISnnM .header-1TOWci {
 	box-shadow: var(--elevation-low);
@@ -140,7 +170,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 /* Settings: Server Boost */
 .standardSidebarView-3F1I7i .card-3AyPWq {
-	background-color: #858282;
+	background-color: var(--background-dark);
 }
 /************************************** Server Discovery ***************************************/
 
@@ -174,7 +204,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 
 /* Sidebar */
 .content-98HsJk .sidebar-2K8pFh .discoverHeader-1TWTqG {
-	background-color: #7e7e7e;
+	background-color: var(--background-dark);
 	padding: 8px 16px 8px 16px;
 	margin: 0px;
 }
@@ -186,7 +216,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 	margin-left: 0px;
 }
 .content-98HsJk .sidebar-2K8pFh .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
-	background-color: #7e7e7e;
+	background-color: var(--background-dark);
 	border-radius: 4px 0px 0px 4px;
 }
 .content-98HsJk .sidebar-2K8pFh .clickable-1JJAn8:hover .layout-2DM8Md {
@@ -224,7 +254,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 	background-color: var(--bd-blue);
 }
 .categoryPill-34fszg .categoryLabel-2G3r2V {
-	color: #A5A5A5;
+	color: var( --text-focus);
 }
 .emojiContainer-1u-_sQ {
 	background-color: var(--background);
@@ -237,7 +267,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 .container-3ISnnM .gif-1TcNIB,
 .container-3ISnnM .placeholder-1kJjXI,
 .container-3ISnnM .emptyHintCard-2mUdMe {
-	background-color: rgb(158, 157, 157);
+	background-color: var(--background);
 }
 .container-3ISnnM .result-3w1ZcL:hover:after {
 	box-shadow: inset 0 0 0 2px var(--bd-blue), inset 0 0 0 3px #141414;
@@ -303,7 +333,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 .emojiPicker-3PwZFl .wrapper-1-Fsb8,
 .emojiPicker-3PwZFl .inner-3ErfOT,
 .emojiPicker-3PwZFl .noSearchResultsContainer-7llQ5J {
-	background-color: #858484;
+	background-color: var(--background);
 }
 .emojiPicker-3PwZFl .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
 .emojiPicker-3PwZFl+.categoryList-2Kzf65 .categoryItemDefaultCategorySelected-_HCKoz,
@@ -607,6 +637,30 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD {
   position: relative;
+}
+/* Video Call/Voice Call */
+.headerWrapper-3NUKsd .transparent-2ZlE3R.container-1r6BKw {
+	background-color: var(--background-dark);
+	height: 40px;
+}
+.chat-3bRxxu .wrapper-2qzCYF {
+	background-color: var(--background-dark);
+}
+.chat-3bRxxu .wrapper-2qzCYF .quickSelect-3BxO0K {
+	margin-top: 8px;
+}
+.chat-3bRxxu .wrapper-2qzCYF .tile-2naSqK,
+.chat-3bRxxu .wrapper-2qzCYF .videoWrapper-2v09vt,
+.chat-3bRxxu .wrapper-2qzCYF .streamPreview-3YL8OQ {
+	background-color: var(--background-dark);
+}
+.chat-3bRxxu .wrapper-2qzCYF .button-3HqqDX,
+.chat-3bRxxu .wrapper-2qzCYF .streamPreview-3YL8OQ .cta-2DQ2ez {
+	background-color: var(--bd-blue);
+}
+.chat-3bRxxu .wrapper-2qzCYF .previewWrapper-39cUHY.loading-35BNuU,
+.chat-3bRxxu .wrapper-2qzCYF .overlayTitle-8IcS01.idle-U-LIlZ {
+	opacity: 1;
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD:before {
   content: "";
